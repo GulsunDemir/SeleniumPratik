@@ -22,7 +22,7 @@ public class C02_DriverMethods {
         System.out.println("Techproed Actual Url = " + driver.getCurrentUrl());
 
         //getPageSource() Acilan sayfanin kaynak kodlarini verir
-        //stem.out.println( driver.getPageSource()); Bilerek yoruma aldık her calistirdigimizda konsola butuk kaynak kodlar gelmesin
+        //stem.out.println( driver.getPageSource()); Bilerek yoruma aldık her calistirdigimizda konsola butun kaynak kodlar gelmesin
 
         //getWindowHandle() Gidilen sayfanin handle degerini(hashKod) verir. Bu handle degerini sayfalar arasi gecis icin kullaniriz
         System.out.println("Techproed Window Handle Degeri = " + driver.getWindowHandle());//Techproed Window Handle Degeri = A58A9D915D516438483707012CF856DC bu hash kodunu pencereler arasi gecis te kullanacagiz
